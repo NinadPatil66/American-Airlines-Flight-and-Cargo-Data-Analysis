@@ -2,8 +2,11 @@
 ## 1) Cargo Performance Analysis & Recommendation
 ## 2) Analyzing Passenger Flight Delays and Cancellations - Effect of Wind Gusts & Visibility 
 ### Link to Jupyter Notebook - https://github.com/NinadPatil66/Analyzing-Flight-Delays-and-Cancellations-and-Flight-Duration-Trends/blob/main/Analyzing%20Flight%20Delays%20%26%20Cancellations.ipynb
-## 3) Flight Duration Trends from NYC Airport
+## 3) Building predictive models to help American Airlines acquire customers
+## 4) Flight Duration Trends from NYC Airport
 ### Link to Jupyter Notebook - https://github.com/NinadPatil66/Analyzing-Flight-Delays-and-Cancellations-and-Flight-Duration-Trends/blob/main/Identifying%20Flight%20Duration%20Trends.ipynb
+## 5) Sentiment Analysis of customer reviews/feedback to better understand customer feelings, opinions, and needs
+
 # Details:
 ##  Cargo Performance Analysis & Recommendation
 ### Improving Aircraft Load Factor:
