@@ -33,6 +33,8 @@
 
 # Building Predictive Models to help American Airlines Acquire Customers
 ## Machine Learning Techniques Used: Random Forest/Boosted Trees, Neural Networks, Logistic Regression
+
+## Recommendation:
 ![SS_11](https://github.com/user-attachments/assets/b0a44a59-e1a5-4c0e-b5f6-96cb4308de1e)
 
 # Tools Used:
