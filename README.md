@@ -2,7 +2,7 @@
 ## 1) Cargo Performance Analysis & Recommendation
 ## 2) Building predictive models to help American Airlines acquire customers
 ## 3) Sentiment Analysis of customer reviews/feedback to better understand customer feelings, opinions, and needs
-## 4) Analyzing Passenger Flight Delays and Cancellations - Effect of Wind Gusts & Visibility 
+## 4) Analyzing Effect of Wind Gusts & Visibility on Passenger Flight Delays and Cancellations  
 ### Link to Jupyter Notebook - https://github.com/NinadPatil66/Analyzing-Flight-Delays-and-Cancellations-and-Flight-Duration-Trends/blob/main/Analyzing%20Flight%20Delays%20%26%20Cancellations.ipynb
 ## 5) Flight Duration Trends from NYC Airport
 ### Link to Jupyter Notebook - https://github.com/NinadPatil66/Analyzing-Flight-Delays-and-Cancellations-and-Flight-Duration-Trends/blob/main/Identifying%20Flight%20Duration%20Trends.ipynb
