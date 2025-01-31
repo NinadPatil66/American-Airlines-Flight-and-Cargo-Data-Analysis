@@ -1,7 +1,7 @@
 # Objectives:
 ## 1) Cargo Performance Analysis & Recommendation
-## 2) Building predictive models to help American Airlines acquire customers
-## 3) Sentiment Analysis of customer reviews/feedback to better understand customer feelings, opinions, and needs
+## 2) Building Predictive Models to help American Airlines Acquire Customers
+## 3) Sentiment Analysis of Customer Reviews/Feedback to Better Understand Customer Feelings, Opinions, and Needs
 ## 4) Analyzing Effect of Wind Gusts & Visibility on Passenger Flight Delays and Cancellations  
 ### Link to Jupyter Notebook - https://github.com/NinadPatil66/Analyzing-Flight-Delays-and-Cancellations-and-Flight-Duration-Trends/blob/main/Analyzing%20Flight%20Delays%20%26%20Cancellations.ipynb
 ## 5) Flight Duration Trends from NYC Airport
