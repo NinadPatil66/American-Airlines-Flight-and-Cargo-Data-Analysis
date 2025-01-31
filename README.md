@@ -26,6 +26,7 @@
 ## 1) Power BI
 ## 2) Python/R
 ## 3) Alteryx
+## 4) Excel
 
 
 
