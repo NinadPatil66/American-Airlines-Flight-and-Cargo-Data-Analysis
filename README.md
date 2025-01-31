@@ -1,9 +1,9 @@
 # Objectives:
 ## 1) Cargo Performance Analysis & Recommendation
 ## 2) Analyzing Passenger Flight Delays and Cancellations - Effect of Wind Gusts & Visibility 
-## 3) Flight Duration Trends from NYC Airport
 ### Link to Jupyter Notebook - https://github.com/NinadPatil66/Analyzing-Flight-Delays-and-Cancellations-and-Flight-Duration-Trends/blob/main/Analyzing%20Flight%20Delays%20%26%20Cancellations.ipynb
-
+## 3) Flight Duration Trends from NYC Airport
+### Link to Jupyter Notebook - https://github.com/NinadPatil66/Analyzing-Flight-Delays-and-Cancellations-and-Flight-Duration-Trends/blob/main/Identifying%20Flight%20Duration%20Trends.ipynb
 # Details:
 ##  Cargo Performance Analysis & Recommendation
 ### Improving Aircraft Load Factor:
