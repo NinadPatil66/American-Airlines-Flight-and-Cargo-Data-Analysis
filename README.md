@@ -7,7 +7,6 @@
 ## 5) Flight Duration Trends from NYC Airport
 ### Link to Jupyter Notebook - https://github.com/NinadPatil66/Analyzing-Flight-Delays-and-Cancellations-and-Flight-Duration-Trends/blob/main/Identifying%20Flight%20Duration%20Trends.ipynb
 
-
 # Details:
 ##  Cargo Performance Analysis & Recommendation
 ### Improving Aircraft Load Factor:
@@ -22,6 +21,11 @@
 ![Report 3 - Sales Performance Analysis](https://github.com/user-attachments/assets/6e6fc246-625d-438f-a4b7-805e0ac62930)
 ### Financial Performance Analysis:
 ![Report 1 - Financial Performance Analysis](https://github.com/user-attachments/assets/e9495b54-840e-4e48-8a07-c74b6aabb89c)
+
+# Tools Used:
+## 1) Power BI
+## 2) Python/R
+## 3) Alteryx
 
 
 
