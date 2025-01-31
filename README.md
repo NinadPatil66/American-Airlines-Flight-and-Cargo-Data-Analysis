@@ -1,56 +1,12 @@
-# Analyzing-Flight-Delays-Cancellations-Flight-Duration-Trends
-# Import required libraries
-import pandas as pd
-import matplotlib.pyplot as plt
+![SS_1](https://github.com/user-attachments/assets/d78db6ed-1709-4ec0-a5b9-7003ed0d1fa2)<br>
+![SS_2](https://github.com/user-attachments/assets/d9a78342-fd94-4afd-9f08-03b956ba738b)<br>
 
-# Start your code here!
-flights2022 = pd.read_csv("flights2022.csv")
-flights_weather2022 = pd.read_csv("flights_weather2022.csv")
+![SS_3](https://github.com/user-attachments/assets/2edaea42-3e2a-46c8-823d-5ce5e46a48ef)<br>
 
-flights2022['route'] = flights2022['origin'] + "-" + flights2022["dest"]
+![SS_4](https://github.com/user-attachments/assets/ca44fe96-bd0a-45b0-a944-26446ed55dd7)<br>
+![SS_5](https://github.com/user-attachments/assets/da09e81b-fe6a-448f-996c-4a12fddc6187)<br>
+![SS_6](https://github.com/user-attachments/assets/462e7a6e-c63b-47d8-b02d-7e42667a2040)<br>
 
-routes_delays_cancels = flights2022.groupby("route").agg(
-    mean_dep_delay=("dep_delay", "mean"),
-    total_cancellations=("dep_time", lambda x: x.isna().sum())).reset_index()
+![SS_7](https://github.com/user-attachments/assets/fe420549-950d-434c-a29b-23d140a4dd73)<br>
 
-top_routes_by_delay = routes_delays_cancels.sort_values('mean_dep_delay',ascending = False).head(9)
-
-top_routes_by_cancellations = routes_delays_cancels.sort_values("total_cancellations", ascending=False).head(9)
-
-print(routes_delays_cancels.columns.tolist())
-
-top9_route_cancels_bar, ax = plt.subplots()
-ax.bar(top_routes_by_cancellations['route'],top_routes_by_cancellations['total_cancellations'])
-ax.set_xlabel('Route')
-ax.set_ylabel('Total Cancellations')
-ax.set_title('Routes with Highest Number of Cancellations')
-ax.set_xticklabels(top_routes_by_Cancellations["route"], rotation=90)
-plt.show()
-plt.close()
-
-airlines_delays_cancels = flights2022.groupby('airline').agg(mean_dep_delay = ("dep_delay","mean"),total_cancellations = ("dep_time", lambda x: x.isna().sum())).reset_index()
-
-top_airlines_by_delay = airlines_delays_cancels.sort_values("mean_dep_delay", ascending = False).head(9)
-
-top_airlines_by_cancellations = airlines_delays_cancels.sort_values("total_cancellations", ascending = False).head(9)
-
-top9_airline_delays_bar, ax = plt.subplots()
-ax.bar(top_airlines_by_delay['airline'],top_airlines_by_delay['mean_dep_delay'])
-ax.set_xlabel('Airline')
-ax.set_ylabel('Departure Delay')
-ax.set_title('Routes with Highest Mean Departure Delay')
-ax.set_xticklabels(top_airlines_by_delay["airline"], rotation=90)
-plt.show()
-plt.close()
-
-flights_weather2022["group"] = flights_weather2022["wind_gust"].apply(lambda x: ">=10mph" if x>=10 else "<10mph")
-
-wind_grouped_data = flights_weather2022.groupby(["group","origin"]).agg(mean_dep_delay = ("dep_delay","mean"))
-
-print(wind_grouped_data)
-
-wind_response = True
-
-
-
-
+![SS_8](https://github.com/user-attachments/assets/783f7f4c-8db1-42d5-8025-5b9814b48263)
